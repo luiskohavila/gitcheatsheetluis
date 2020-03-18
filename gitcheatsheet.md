@@ -1,4 +1,4 @@
-# Git Cheat Sheet: Chapter 2 #
+# Git Cheat Sheet: Chapter 2 Git Basics #
 ## Create a Git Repository ##
 
 #### git
