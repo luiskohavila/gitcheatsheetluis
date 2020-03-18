@@ -1,14 +1,20 @@
 # Git Cheat Sheet: Chapter 2 #
 ## Create a Git Repository ##
 
-git - used at the beggining to use the command gave it by git.
-git init - Creates an empty .git repository or reinitialize an existing one.
-git add [file] - Adds file contents to the index/Prepare files/Track a file
-git commit -m "name of the version" - Save the changes as the name gave it by the user.
-git clone [url] - Obtain a copy of an existing repository where you want to contribute
-		Also it initialize a .git repository and download all the information and
-		a copy of the last version.
-git clone [url] [name] - Clone the repository and change the name of the destity by the given it
+#### git
+used at the beggining to use the command gave it by git.
+#### git init
+Creates an empty .git repository or reinitialize an existing one.
+#### git add [file]
+Adds file contents to the index/Prepare files/Track a file
+#### git commit -m "name of the version"
+Save the changes as the name gave it by the user.
+#### git clone [url]
+Obtain a copy of an existing repository where you want to contribute.
+Also it initialize a .git repository and download all the information and
+a copy of the last version.
+#### git clone [url] [name]
+Clone the repository and change the name of the destity by the given it
  
 ## Save changes in a Repository ##
 
