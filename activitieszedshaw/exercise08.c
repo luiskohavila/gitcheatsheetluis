@@ -13,7 +13,7 @@ int areas[] = {10, 12, 13, 14, 20}; //Initializing one with numbers
 		' ', 'A', '.', ' ',
 		'S', 'h', 'a', 'w', '\0'
 	};
-// WARNING: On some systems you may have to change the
+
 // %ld in this code to a %u since it will use unsigned ints
 	//Here we are printing the space in the memory of all the types of numbers
 	//and in the variables previously declared
