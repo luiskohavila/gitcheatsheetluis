@@ -36,12 +36,21 @@ int main(int argc, char *argv[]){
 /*
 EXTRA CREDITS
 
+1.- Make the number you assign to universe_of_defects various sizes
+until you get a warning from the compiler.
 
+exercise07.c:11:81: warning: integer overflow in expression [-Woverflow]
+long universe_of_defects = 1L * 1024L * 1024L * 1024L * 1024L * 1024L * 1024L * 1024 * 1024;
 
+2.- What do these really huge numbers actually print out?
+The entire universe has 0 bugs.
 
+3.- Change long to unsigned long and try to find the number that makes that one too big.
+Is the same result as the other one
 
-
-
+4.- Go search online to find out what unsigned does.
+Unsigned indicates that we can only use positive natural numbers starting with zero.
+Can be used before char, short and long types.
 
 
 */
