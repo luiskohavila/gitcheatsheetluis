@@ -48,30 +48,22 @@ printf("name: %s\n", name);
 	 return 0; //Everything goes well
 }
 
+
 /*
+
 EXTRA CREDITS
-===================================================================
-Assign the characters into numbers and then use printf to print them
-a character at a time. What kind of compiler warnings did you get?
 
---------------------------------------------------------------------
-Do the inverse for name , trying to treat it like an array of int and
-print it out one int at a time. What does Valgrind think of that?
+1.- Assign the characters into numbers and then use printf to print
+them a character at a time. What kind of compiler warnings did you get?
 
---------------------------------------------------------------------
-How many other ways can you print this out?
+I didn’t get any warning but at the moment to run the code I get:
+numbers: 0 0 0 0
 
--------------------------------------------------------------------------
-If an array of characters is 4 bytes long, and an integer is 4 bytes long,
-then can you treat the whole name array like it's just an integer?
-How might you accomplish this crazy hack?
+2.- Do the inverse for name , trying to treat it like an array of int
+and print it out one int at a time. What does Valgrind think of that?
 
------------------------------------------------------------------------------
-Take out a piece of paper and draw out each of these arrays as a row of boxes.
-Then do the operations you just did on paper to see if you get them right.
+When I use the ./a.out in the program appears this code, that refers
+to the numbers expressed in ASCII that is the word “Zed”
+name each: 90 101 100 0
 
-----------------------------------------------------------------------------
-Convert name to be in the style of another and see if the code keeps working.
-
-=============================================================================
 */

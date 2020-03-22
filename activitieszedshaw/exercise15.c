@@ -52,3 +52,21 @@ int main(int argc, char *argv[])
 
 	return 0;
 }
+
+
+/*
+
+1.- Rewrite all the array usage in this program so that it's pointers.
+
+for (i = 0; i < count; i++) {
+    printf("%s has %d years alive.\n", *(names + i), *(ages + i));
+}
+
+2.- Rewrite all the pointer usage so they're arrays.
+
+char *names[] = {
+		"Alan", "Frank",
+		"Mary", "John", "Lisa"
+	};
+
+*/
