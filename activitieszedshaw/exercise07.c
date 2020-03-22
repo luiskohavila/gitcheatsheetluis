@@ -15,7 +15,7 @@ int main(int argc, char *argv[]){
 	//Create another variable where multiplies two variables
 		double expected_bugs = bugs * bug_rate;
 		printf("You are expected to have %f bugs.\n",
-		expected bugs);
+		expected_bugs);
 	//Divide two variables using double because the numbes is too long
 		double part_of_universe = expected_bugs / universe_of_defects;
 		printf("That is only a %e portion of the universe.\n",

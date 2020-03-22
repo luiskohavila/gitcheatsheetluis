@@ -5,10 +5,12 @@ int main(int argc, char *argv[])
 //go through each string in argv
 	int i = 0;
 	while(i < argc) {
+		//Number of argument and element
 		printf("arg %d: %s\n",i,argv[i]);
 		i++;
 	}
 //let's make our own array of strings
+	//Initializing the array with those words
 	char *states[] = {
 	"California", "Oregon",
 	"Washington", "Texas"
@@ -16,11 +18,12 @@ int main(int argc, char *argv[])
 
 	int num_states = 4;
 	i = 0;
+	//Print each state
 	while(i < num_states){
 		printf("state %d: %s\n",i,states[i]);
 		i++;
 	}
-	return 0;
+	return 0; //Everything goes well
 }
 
 /*

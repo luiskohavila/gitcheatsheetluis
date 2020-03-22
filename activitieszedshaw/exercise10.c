@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
 {
 int i = 0;
 // go through each string in argv
-//For cycle to use unlimited number of arguments
+//For loop to use unlimited number of arguments
 //and print them
 for(i = 1; i < argc; i++){
 	printf("arg %d: %s\n", i, argv[i]);

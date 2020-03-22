@@ -4,7 +4,7 @@ int main(int argc, char *argv[])
 {
 	//create two arrays we care about
 	int ages[] = {23, 43, 12, 89, 2};
-	char *names[] = {
+	char *names[] = { //mark the names as a pointer
 		"Alan", "Frank",
 		"Mary", "John", "Lisa"
 	};
@@ -28,6 +28,7 @@ int main(int argc, char *argv[])
 	//second way using pointers
 	for(i = 0; i < count; i++) {
 		printf("%s is %d years old.\n",
+			//Call the pointers
 			*(cur_name+i), *(cur_age+i));
 	}
 
@@ -47,10 +48,11 @@ int main(int argc, char *argv[])
 		cur_name++, cur_age++)
 	{
 		printf("%s lived %d years so far.\n",
+		//Call the pointers
 			*cur_name, *cur_age);
 	}
 
-	return 0;
+	return 0; //Everythin goes well and finish the program
 }
 
 

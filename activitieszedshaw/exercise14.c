@@ -5,23 +5,28 @@
 int can_print_it(char ch);
 void print_letters(char arg[]);
 
+//Function
 void print_arguments(int argc, char *argv[])
 {
 	int i = 0;
 
 	for(i = 0;i < argc; i++){
+		//prints the letters typed
 		print_letters(argv[i]);
 	}
 }
 
+//Function
 void print_letters(char arg[])
 {
 	int i = 0;
-
+	//For loop to check the letters in the array
+	//and stops when it comes to the null point
 	for(i = 0; arg[i] != '\0'; i++) {
 		char ch = arg[i];
 
 		if(can_print_it(ch)) {
+	//Prints the value of the character in ASCII format
 			printf("'%c' == %d ",ch,ch);
 		}
 	}
@@ -30,13 +35,16 @@ void print_letters(char arg[])
 
 int can_print_it(char ch)
 {
+	//this means that we will finish the program when return
+	//a value of 0 or 1 of isalpha and isblank
 	return isalpha(ch) || isblank(ch);
 }
 
 int main(int argc, char *argv[])
 {
+	//Calling the function to print the arguments
 	print_arguments(argc, argv);
-	return 0;
+	return 0; //Everything goes well and finish the program
 }
 
 

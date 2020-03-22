@@ -2,13 +2,16 @@
 
 int main(int argc, char *argv[])
 {
-	if(argc != 2) {
+	if(argc != 2) { //Condition if you pass the number of arguments
 		printf("ERROR: You need one argument.\n");
 		//this is how to abort the program
 		return 1;
 	}
 
 	int i = 0;
+	//Take the first element of the text chain
+	//For loop repites until reaches the last letter
+	//of the text chain that is the null point
 	for(i = 0; argv[1][i] != '\0'; i++) {
 		char letter = argv[1][i];
 
@@ -16,34 +19,34 @@ int main(int argc, char *argv[])
 		case 'a':
 		case 'A':
 			printf("%d: 'A'\n",i);
-			break;
+			break; //Finish the compilation
 		case 'e':
 		case 'E':
 			printf("%d: 'E'\n",i);
-			break;
+			break;//Finish the compilation
 		case 'i':
 		case 'I':
 			printf("%d: 'I'\n",i);
-			break;
+			break;//Finish the compilation
 		case 'o':
 		case 'O':
 			printf("%d: 'O'\n",i);
-			break;
+			break;//Finish the compilation
 		case 'u':
 		case 'U':
 			printf("%d: 'U'\n",i);
-			break;
+			break;//Finish the compilation
 		case 'y':
 		case 'Y':
 			if(i > 2) { //it´s only sometimes Y
 			printf("%d: 'Y'\n",i);
 			}
-			break;
+			break;//Finish the compilation
 		default:
 			printf("%d: %c is not a vowel\n",i,letter);
 		}
 	}
-	return 0;
+	return 0; //Everything goes well and finish the code
 }
 
 /*
