@@ -36,7 +36,6 @@ int main(void) {
       } while ((symb < 'a') || (symb > 'z'));
       for (j = 0; j < length; j++) {
          if (symb == word[j]) {
-            printf("This character already used.\n");
             lives--;
             printf("Same letter typed. %i lives left.\n", lives);
             break;
@@ -54,7 +53,7 @@ int main(void) {
          if (correct == 0) {
             lives--;
             if (lives > 0) {
-               printf("Wrong. %i lives left.\n", lives);
+               printf("Wrong. You have %i lives.\n", lives);
             } else {
                printf("You lose.\n");
                return 0;
@@ -66,7 +65,7 @@ int main(void) {
                printf("Congratulations!\n");
             }
          }
-         printf("You have %s\n", word);
+         printf("The word is: %s\n", word);
       }
    }
 }
