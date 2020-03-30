@@ -13,7 +13,7 @@ int main(void) {
 
    int j = 0, correct, i = 0;
    char symb;
-   srand((unsigned int) time(NULL));
+
    printf("\nLet's start. You have %d lives \n", lives);
    wordi = 0;
 
